@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija - Svijet Automobila</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galerija - Svijet Automobila</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f9;
+                color: #333;
+            }
+    
+            header {
+                background-color: #333;
+                padding: 10px 0;
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+                border-bottom: 3px solid #28a745;
+            }
+    
+            header nav {
+                text-align: center;
+            }
+    
+            header a {
+                color: #fff;
+                background-color: #28a745;
+                padding: 12px 25px;
+                margin: 0 10px;
+                text-decoration: none;
+                border-radius: 20px;
+                font-size: 16px;
+                display: inline-block;
+                border: 2px solid #1e7e34;
+                transition: 0.3s;
+            }
+    
+            .gallery-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 20px;
+                padding: 20px;
+                justify-items: center;
+            }
+    
+            .gallery-item {
+                width: 100%;
+                max-width: 350px;
+                text-align: center;
+                background-color: #fff;
+                border: 2px solid #28a745;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                transition: 0.3s;
+                overflow: hidden;
+            }
+    
+            .gallery-item:hover {
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+                transform: translateY(-5px);
+            }
+    
+            .gallery-item img {
+                width: 100%;
+                height: auto;
+                display: block;
+                transition: transform 0.3s ease-in-out;
+            }
+    
+            .gallery-item img:hover {
+                transform: scale(1.1);
+            }
+    
+            .car-name {
+                font-size: 20px;
+                font-weight: bold;
+                padding: 15px;
+                color: #333;
+                background-color: #f7f7f7;
+                border-radius: 0 0 10px 10px;
+                text-transform: capitalize;
+            }
+    
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Početna</a>
+                <a href="galerija.html">Galerija</a>
+                <a href="kontakt.html">Informacije</a>
+            </nav>
+        </header>
+    
+        <section style="padding: 20px;">
+            <h2 style="text-align: center; font-size: 28px; color: #333; margin-top: 0;">Galerija Prestižnih Automobila</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="slike/download-_1_.jpg" alt="Lamborghini Aventador">
+                    <div class="car-name">Lamborghini Aventador</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="slike/download-_2_.jpg" alt="Ferarri 488">
+                    <div class="car-name">Ferrari 488</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="slike/download-_3_.jpg" alt="McLaren 720S">
+                    <div class="car-name">McLaren 720S</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="slike/buggati.jpg" alt="Buggati Chiron">
+                    <div class="car-name">Buggati Chiron</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="slike/magnetic_mustang_3.jpg" alt="Ford Mustang">
+                    <div class="car-name">Ford Mustang</div>
+                </div>
+            <div class="gallery-item">
+                <img src="slike/huracan.jpg" alt="Lamborghini Huracan">
+                <div class="car-name">Lamborghini Huracan</div>
+            </div>
+            <div class="gallery-item">
+                <img src="slike/audi r88.jpg" alt="Audi R8">
+                <div class="car-name">Audi R8</div>
+            </div>
+            <div class="gallery-item">
+                <img src="slike/mercedes.jpg" alt="Mercedes AMG GT">
+                <div class="car-name">Mercedes AMG GT</div>
+            </div>
+            <div class="gallery-item">
+                <img src="slike/2019-chevrolet-corvette-zr1-011.jpg" alt="Chevrolet Corvette">
+                <div class="car-name">Chevrolet Corvette</div>
+            </div>
+            <div class="gallery-item">
+                <img src="slike/1bmwi8.jpg" alt="BMW i8">
+                <div class="car-name">BMW i8</div>
+        </div>
+        </section>
+
+    <footer>
+        <p>&copy; Web-Programiranje projekat.</p>
+    </footer>
+
+</body>
+</html>
